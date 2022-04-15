@@ -1,0 +1,5 @@
+
+S
+java:S5838%"1Use assertThat(actual).hasSize(expected) instead.(ªöî˜üÿÿÿÿ8˜¼¬ ‚0
+U
+java:S58382"3Use assertThat(actual).isEqualTo(expected) instead.(¹ßúËúÿÿÿÿ8°¼¥ ‚0

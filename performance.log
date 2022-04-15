@@ -1,0 +1,18 @@
+23:56:45.053 [main] INFO  c.n.e.s.project.aspect.LoggerAspect - StopWatch 'loadAndMerge': running time = 1456709 ns
+---------------------------------------------
+ns         %     Task name
+---------------------------------------------
+001456709  100%  loadAndMerge
+
+23:56:45.056 [main] INFO  c.n.e.s.project.aspect.LoggerAspect - StopWatch 'getPassedStudents': running time = 1426750 ns
+---------------------------------------------
+ns         %     Task name
+---------------------------------------------
+001426750  100%  getPassedStudents
+
+23:56:45.114 [main] INFO  c.n.e.s.project.aspect.LoggerAspect - StopWatch 'getStudentsOrderByScore': running time = 3061083 ns
+---------------------------------------------
+ns         %     Task name
+---------------------------------------------
+003061083  100%  getStudentsOrderByScore
+

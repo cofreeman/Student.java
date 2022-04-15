@@ -1,0 +1,17 @@
+
+e
+java:S1854 "CRemove this useless assignment to local variable "orderedStudents".(ãñÄıÿÿÿÿ8ƒÎã¬‚0
+_
+java:S1854"BRemove this useless assignment to local variable "passedStudents".(ñª8„Îã¬‚0
+P
+java:S1481"3Remove this unused "passedStudents" local variable.(ñª8†Îã¬‚0
+]	java:S125"<This block of commented-out lines of code should be removed.(ŸÓ„úúÿÿÿÿ8”ƒß®‚0
+V
+java:S1481 "4Remove this unused "orderedStudents" local variable.(ãñÄıÿÿÿÿ8‡Îã¬‚0
+]	java:S125!"<This block of commented-out lines of code should be removed.(‹µıáøÿÿÿÿ8‡Îã¬‚0
+}
+java:S1128"[Remove this unused import 'com.nhnacademy.edu.springframework.project.aspect.LoggerAspect'.(ŞÖøñùÿÿÿÿ8–ËÖ¬‚0
+
+java:S1128"_Remove this unused import 'org.springframework.context.support.ClassPathXmlApplicationContext'.(•ËÛüÿÿÿÿ8–ËÖ¬‚0
+I
+java:S1068"'Remove this unused "log" private field.(ÌÚ–şÿÿÿÿÿ8ˆÎã¬‚0

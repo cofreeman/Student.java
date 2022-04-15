@@ -1,0 +1,42 @@
+<configuration>
+<!--    <appender name="EXCEPTION_FILE" class="ch.qos.logback.core.FileAppender">-->
+<!--        <file>logs/exception.log</file>-->
+
+<!--        <encoder>-->
+<!--            <pattern>%d{HH:mm:ss.SSS} [%thread] %-5level %logger{36} - %msg%n</pattern>-->
+<!--        </encoder>-->
+<!--    </appender>-->
+
+    <appender name="FILE" class="ch.qos.logback.core.FileAppender">
+        <file>logs/performance.log</file>
+
+        <encoder>
+            <pattern>%d{HH:mm:ss.SSS} [%thread] %-5level %logger{36} - %msg%n</pattern>
+        </encoder>
+    </appender>
+
+    <appender name="STDOUT" class="ch.qos.logback.core.ConsoleAppender">
+        <encoder>
+            <pattern>
+                %d{HH:mm:ss.SSS} [%thread] %-5level %logger{36} - %msg%n
+            </pattern>
+        </encoder>
+    </appender>
+
+<!--    <logger name="STDOUT" level="INFO" additivity = "false">-->
+<!--        <appender-ref ref="STDOUT"/>-->
+<!--    </logger>-->
+<!--    <logger name="com.nhnacademy.edu.springframework.project.singleton.JavaConfigMain" level="ERROR" additivity = "false">-->
+<!--        <appender-ref ref="EXCEPTION_FILE"/>-->
+<!--    </logger>-->
+
+    <logger name="com.nhnacademy.edu.springframework.project.aspect.LoggerAspect" level="INFO">
+        <appender-ref ref="FILE"/>
+    </logger>
+
+    <!-- turn OFF all logging (children can override) -->
+    <root level="INFO">
+        <appender-ref ref="STDOUT" />
+    </root>
+
+</configuration>
